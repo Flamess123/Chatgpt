@@ -1,0 +1,43 @@
+.hero {
+  background: radial-gradient(circle at top right, #0a84ff, #001f4d);
+  color: white;
+  text-align: center;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-text {
+  margin-bottom: 2rem;
+}
+
+.tagline {
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+
+.roles {
+  font-size: 1.2rem;
+  color: #ffb800;
+  height: 1.5rem;
+}
+
+.hero-canvas {
+  width: 100%;
+  max-width: 400px;
+}
+
+@media (min-width: 768px) {
+  .hero-content {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  .hero-text {
+    max-width: 50%;
+  }
+}
