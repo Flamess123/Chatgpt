@@ -1,0 +1,19 @@
+.footer {
+  background: #001f4d;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.social-links a {
+  color: #ffb800;
+  margin: 0 0.5rem;
+  text-decoration: none;
+}
